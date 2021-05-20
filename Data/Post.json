@@ -1,0 +1,17 @@
+{
+    "post" :[
+        {
+            "id": 1,
+            "img": "https://user-images.githubusercontent.com/75928934/119004159-83208680-b9b8-11eb-9ab6-f6ee4f25c517.jpg",
+            "judul": "Landing Page Azzura",
+            "link" : "http://facebook.com"
+        },
+        {
+            "id" : 2,
+            "img": "https://user-images.githubusercontent.com/75928934/119004159-83208680-b9b8-11eb-9ab6-f6ee4f25c517.jpg",
+            "judul": "Landing Page Sidiq cell",
+            "link" : "http://facebook.com"
+        }
+    ]
+
+}
