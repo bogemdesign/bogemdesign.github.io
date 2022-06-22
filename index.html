@@ -28,18 +28,7 @@
           }
         }
         
-          let gambar= document.querySelectorAll('img')
-      
-      gambar.forEach(function(e){
-        e.classList.toggle('lazy')
-  
-      })
-      Defer(function() {
-
-Defer.dom('img.lazy', 200, 'loaded');
-
-
-})
+        
       </script>
 </head>
 <body class="bg-slate-800 text-white">
@@ -436,6 +425,19 @@ Defer.dom('img.lazy', 200, 'loaded');
     </div>
   </footer>
   <!-- Footer End -->
+<script type="text/javascript" charset="utf-8">
+    let gambar= document.querySelectorAll('img')
+      
+      gambar.forEach(function(e){
+        e.classList.toggle('lazy')
+  
+      })
+      Defer(function() {
 
+Defer.dom('img.lazy', 200, 'loaded');
+
+
+})
+</script>
 </body>
 </html>
